@@ -6,18 +6,6 @@ This README provides instructions for installing a Nemo action that enables user
 
 To install the Nemo action, open a terminal and execute the following command:
 
-Certainly! Below is the revised README content in markdown format, with a placeholder for the installation command:
-
-markdown
-
-# Nemo Copy Folder Content List Installation Guide
-
-This README provides instructions for installing a Nemo action that enables users to copy the names of all items in a folder to the clipboard, excluding their paths. The action is installed using a single command line operation that handles everything from downloading the necessary scripts to setting them up for use with Nemo.
-
-## Quick Start
-
-To install the Nemo action, open a terminal and execute the following command:
-
 ```
 REPO_URL="https://github.com/ForDefault/nemo_copy_folder_content_list.git" && \
 REPO_NAME=$(basename $REPO_URL .git) && \
