@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=List Document Names
+Comment=List names of all documents in this folder
+Exec=/home/$USER/.local/share/nemo/actions/list_documents.sh %F
+Icon-Name=document-new
+Selection=s
+Extensions=dir;
+EscapeSpaces=true
