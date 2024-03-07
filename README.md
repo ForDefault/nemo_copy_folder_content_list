@@ -1,12 +1,12 @@
-# Nemo Copy Folder Content List Installation Guide
 
-This README provides instructions for installing a Nemo action that enables users to:
+# Installation Guide
+### Nemo_Copy_Folder_Content_List
 
-**-copy the names of all items in a folder to the clipboard**
+## Enabled Features
 
-  **- excludes full path** 
-
-**Customization**: **No need** to **modify file paths or usernames**, as the script dynamically resolves the current user's home directory.
+- **Clipboard Copying**: Effortlessly copies **just** the item names in a folder to the clipboard.
+- **Path Exclusion**: Smartly **omits the directory paths** for a cleaner output.
+- **Customization**: **No need** to **modify file paths or usernames**, as the script dynamically resolves the current user's home directory.
 
 
 ## Quick Start
@@ -25,15 +25,8 @@ mv list_documents.nemo_action /home/$USER/.local/share/nemo/actions/ && \
 chmod +x /home/$USER/.local/share/nemo/actions/list_documents.sh && \
 chmod +x /home/$USER/.local/share/nemo/actions/list_documents.nemo_action && \
 cd .. && rm -rf $REPO_NAME
-
 ```
 ### Just downloads, copies, adds your user to the nemo_action, changes permissions and deletes the folder
-
-## Features
-
-- **Ease of Use**: Designed to be installed with a single command, streamlining the setup process.
-- **Clipboard Integration**: Leverages `xclip` to copy the names of items in a folder directly to the clipboard.
-- **Customization**: No need to modify file paths or usernames, as the script dynamically resolves the current user's home directory.
 
 ## Usage
 
@@ -51,7 +44,15 @@ nemo -q
 
 If the action does not appear in Nemo's context menu, or if you encounter issues:
 - Verify that `xclip` is installed and functioning correctly.
-- Check that the scripts have the correct permissions and are located in `/home/$USER/.local/share/nemo/actions/`.
-- Restart Nemo using `nemo -q` to refresh its configuration.
+- Check that the scripts have the correct permissions and are located in 
+```
+cd /home/$USER/.local/share/nemo/actions/
+```
+- Restart Nemo using 
+
+```
+nemo -q
+```
+ to refresh its configuration.
 
 
