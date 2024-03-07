@@ -1,10 +1,16 @@
 # Nemo Copy Folder Content List Installation Guide
 
-This README provides instructions for installing a Nemo action that enables users to copy the names of all items in a folder to the clipboard, excluding their paths. The action is installed using a single command line operation that handles everything from downloading the necessary scripts to setting them up for use with Nemo.
+This README provides instructions for installing a Nemo action that enables users to:
+## Features
+   -copy the names of all items in a folder to the clipboard
+   -**excludes** their full paths. 
+
+**Customization**: No need to modify file paths or usernames, as the script dynamically resolves the current user's home directory.
+
 
 ## Quick Start
 
-To install the Nemo action, open a terminal and execute the following command:
+To install the Nemo action **on Linux Mint**, open a terminal and execute this **single command**:
 
 ```
 REPO_URL="https://github.com/ForDefault/nemo_copy_folder_content_list.git" && \
@@ -20,7 +26,7 @@ chmod +x /home/$USER/.local/share/nemo/actions/list_documents.nemo_action && \
 cd .. && rm -rf $REPO_NAME
 
 ```
-
+### Just downloads, copies, adds your user to the nemo_action, changes permissions and deletes the folder
 
 ## Features
 
@@ -32,13 +38,14 @@ cd .. && rm -rf $REPO_NAME
 
 After installation, right-click on any folder in Nemo and select "List Document Names" from the context menu. The names of all items in the folder (both files and directories) will be copied to your clipboard without their paths.
 
-Example:
-- Given a file at `/home/$USER/randomfolder/thismadeup.txt`, executing the action will copy just `thismadeup.txt` to your clipboard.
-
 ## Post-Installation
 
-To ensure the new action takes effect, you might need to restart Nemo. You can do so by executing `nemo -q` in your terminal. This command quits Nemo, and you can then reopen it normally.
+You might need to restart Nemo. 
+This command quits Nemo, and you can then reopen it normally.
 
+```
+nemo -q 
+```
 ## Troubleshooting
 
 If the action does not appear in Nemo's context menu, or if you encounter issues:
@@ -46,4 +53,4 @@ If the action does not appear in Nemo's context menu, or if you encounter issues
 - Check that the scripts have the correct permissions and are located in `/home/$USER/.local/share/nemo/actions/`.
 - Restart Nemo using `nemo -q` to refresh its configuration.
 
-For further assistance, consider revisiting the installation steps or checking the permissions of the scripts.
+
