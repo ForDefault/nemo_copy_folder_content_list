@@ -1,9 +1,10 @@
 # Nemo Copy Folder Content List Installation Guide
 
 This README provides instructions for installing a Nemo action that enables users to:
-## Features
-   -copy the names of all items in a folder to the clipboard
-   -**excludes** their full paths. 
+
+##   -copy the names of all items in a folder to the clipboard
+
+##   - **excludes** their full paths. 
 
 **Customization**: No need to modify file paths or usernames, as the script dynamically resolves the current user's home directory.
 
