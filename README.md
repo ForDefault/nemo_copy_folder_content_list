@@ -2,11 +2,11 @@
 
 This README provides instructions for installing a Nemo action that enables users to:
 
-##   -copy the names of all items in a folder to the clipboard
+**-copy the names of all items in a folder to the clipboard**
 
-##   - **excludes** their full paths. 
+  **- excludes full path** 
 
-**Customization**: No need to modify file paths or usernames, as the script dynamically resolves the current user's home directory.
+**Customization**: **No need** to **modify file paths or usernames**, as the script dynamically resolves the current user's home directory.
 
 
 ## Quick Start
