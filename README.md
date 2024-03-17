@@ -1,4 +1,8 @@
-(Copies Foldernames and Filenames with their extensions. NOT full paths of each file.)
+(nemo_copy_folder_content_list: copies Foldernames and Filenames with their extensions. **NOT full paths of each file**.)
+
+#### My Other Nemo Actions:
+- [nemo_full_extension_path](https://github.com/ForDefault/nemo_full_extension_path)
+
 
 # Installation Guide
 
