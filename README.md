@@ -1,10 +1,5 @@
 (nemo_copy_folder_content_list: copies Foldernames and Filenames content inside folder. **NOT full paths of each file**.)
 
-#### My nemo_actions:
-- **[nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)**
-- [nemo_full_extension_path](https://github.com/ForDefault/nemo_full_extension_path)
-- [nemo_open_in_new_window](https://github.com/ForDefault/nemo_open_in_new_window)
-
 
 # Installation Guide: Nemo_Copy_Folder_Content_List
 
@@ -42,9 +37,15 @@ cd .. && rm -rf $REPO_NAME
 
 After installation, right-click on any folder in Nemo and select "List Document Names" from the context menu. The names of all items in the folder (both files and directories) will be copied to your clipboard without their paths.
 
+#### My Other Nemo Actions:
+- **[nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)**
+- [nemo_full_extension_path](https://github.com/ForDefault/nemo_full_extension_path)
+- [nemo_contains_and_scroll](https://github.com/ForDefault/nemo_contains_and_scroll)
+
+
 ## Post-Installation
 
-You might need to restart Nemo. 
+You might need to restart Nemo(I dont but you can). 
 This command quits Nemo, and you can then reopen it normally.
 
 ```
