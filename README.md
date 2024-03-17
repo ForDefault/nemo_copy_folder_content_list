@@ -6,7 +6,7 @@
 
 # Installation Guide: Nemo_Copy_Folder_Content_List
 
-*This Nemo action:* 
+*This nemo_action:* 
 > allows users to copy the names of all items within a folder to the clipboard, excluding their directory paths for a succinct listing.
 
 
