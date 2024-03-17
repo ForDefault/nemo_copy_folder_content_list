@@ -32,7 +32,6 @@ chmod +x /home/$USER/.local/share/nemo/actions/list_documents.sh && \
 chmod +x /home/$USER/.local/share/nemo/actions/list_documents.nemo_action && \
 cd .. && rm -rf $REPO_NAME
 ```
-### Just downloads, copies, adds your user to the nemo_action, changes permissions and deletes the folder
 
 ## Usage
 
