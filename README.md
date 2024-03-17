@@ -1,5 +1,7 @@
+(Copies Foldernames and Filenames with their extensions. NOT full paths of each file.)
 
 # Installation Guide
+
 ### Nemo_Copy_Folder_Content_List
 
 ## Enabled Features
