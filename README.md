@@ -1,4 +1,4 @@
-(nemo_copy_folder_content_list: copies Foldernames and Filenames content inside folder. **NOT full paths of each file**.)
+(nemo_copy_folder_content_list: From a selected folder- copies folderNames, and, a fileNames. **NOT full paths of each file**.)
 
 
 # Installation Guide: Nemo_Copy_Folder_Content_List
