@@ -12,7 +12,7 @@ nemo_copy_folder_content_list: Creates list of folderNames, and, a fileNames.
 
 - **Clipboard Copying**: Effortlessly copies **just** the item names in a folder to the clipboard.
 - **Path Exclusion**: Smartly **omits the directory paths** for a cleaner output.
-- **Customization**: **No need** to **modify file paths or usernames**, as the script dynamically resolves the current user's home directory.
+- **Installation**: **No need** to **modify file paths or usernames**, as the script dynamically resolves the current user's home directory.
 - **Self-Cleaning**: Post-installation, the script engages in a thorough clean-up process, deleting the cloned repository from your home directory. This action ensures your workspace remains uncluttered, preserving the sanctity and available space of your home directory without leaving behind any residual files or folders.
 
 ## Quick Start
