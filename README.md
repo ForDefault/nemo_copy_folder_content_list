@@ -25,13 +25,15 @@ REPO_URL="https://github.com/ForDefault/nemo_copy_folder_content_list.git" && \
 REPO_NAME=$(basename $REPO_URL .git) && \
 git clone $REPO_URL && \
 cd $REPO_NAME && \
+full_path=$(pwd) && \
 sudo apt-get update && sudo apt-get install -y xclip && \
-sed -i "s|/home/\$USER|/home/$USER|g" list_documents.nemo_action && \
-mv list_documents.sh /home/$USER/.local/share/nemo/actions/ && \
-mv list_documents.nemo_action /home/$USER/.local/share/nemo/actions/ && \
+sed -i "s|/home/\$USER|/home/$USER|g" $full_path/list_documents.nemo_action && \
+mv $full_path/list_documents.sh /home/$USER/.local/share/nemo/actions/ && \
+mv $full_path/list_documents.nemo_action /home/$USER/.local/share/nemo/actions/ && \
 chmod +x /home/$USER/.local/share/nemo/actions/list_documents.sh && \
 chmod +x /home/$USER/.local/share/nemo/actions/list_documents.nemo_action && \
 cd .. && rm -rf $REPO_NAME
+
 ```
 
 ## Usage
